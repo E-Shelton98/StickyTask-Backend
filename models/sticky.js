@@ -9,10 +9,11 @@ const stickySchema = new Schema(
         workSpace: String,
         description: String,
         done: {type: Boolean, default: false},
-        assignTo: {ref:"Person", type: Schema.Type.ObjectId}
+        assignTo: {ref:"Person", type: Schema.Types.ObjectId}
     }
 )
 
 const Sticky = mongoose.model("Sticky", stickySchema)
 
 module.exports = Sticky
+

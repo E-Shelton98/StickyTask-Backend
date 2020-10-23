@@ -3,7 +3,7 @@ const { MONGODBURI } = process.env;
 
 const config = {
   useUnifiedTopology: true,
-  useNewUrlParser: true,
+  useNewUrlParser: true
 };
 
 mongoose.connect(MONGODBURI, config);
