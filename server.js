@@ -23,9 +23,9 @@ app.get("/", (req, res) => {
 const stickyRouter = require("./controllers/sticky");
 app.use("/sticky", stickyRouter);
 
-const personRouter = require("./controllers/person");
-app.use("/person", personRouter);
+// const personRouter = require("./controllers/person");
+// app.use("/person", personRouter);
 
 app.listen(PORT, () => {
-  console.log(`listening in on poer: ${PORT}`);
+  console.log(`listening in on port: ${PORT}`);
 });
