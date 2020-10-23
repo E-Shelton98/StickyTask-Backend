@@ -6,6 +6,8 @@ We will be creating a task manager that enables a user to assign specific tasks 
 
 ### PROJECT LINKS
 
+[Frontend](https://github.com/E-Shelton98/StickyTask-Frontend)
+
 ### WIRE FRAME
 
 [Sticky Task Wire Frame](https://wireframepro.mockflow.com/view/M939316752bfaa091186ddd9d154b115d1603462373599#/page/257ef942b81d43aaad8abb3d7b5d5cb6)
