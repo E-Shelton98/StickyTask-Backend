@@ -16,3 +16,4 @@ const stickySchema = new Schema(
 const Sticky = mongoose.model("Sticky", stickySchema)
 
 module.exports = Sticky
+
