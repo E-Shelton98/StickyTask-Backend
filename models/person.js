@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const personSchema = new Schema(
     {
-        name: String,
+        name: String
         tasks: [{ref:"Sticky", type: Schema.Type.ObjectId}]
     }
 )
