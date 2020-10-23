@@ -27,5 +27,5 @@ const personRouter = require("./controllers/person");
 app.use("/person", personRouter);
 
 app.listen(PORT, () => {
-  console.log(`listening in on poer: ${PORT}`);
+  console.log(`listening in on port: ${PORT}`);
 });
