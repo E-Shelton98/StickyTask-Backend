@@ -41,13 +41,12 @@ router.delete("/:id", async (req, res) => {
 });
 
 // delete by done property
-router.delete("/:true", async (req, res) => {
-  const sticky = await Sticky.deleteMany(req.params.done);
+router.delete("/", async (req, res) => {
+  const sticky = await Sticky.deleteMany({done: true});
   res.json({
     status: 200,
     message: "Deleted Sticky Task",
-    data: sticky,
-    default: false,
+    data: sticky
   });
 });
 

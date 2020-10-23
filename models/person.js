@@ -4,8 +4,8 @@ const Schema = mongoose.Schema;
 
 const personSchema = new Schema(
     {
-        name: String
-        tasks: [{ref:"Sticky", type: Schema.Type.ObjectId}]
+        name: String,
+        tasks: [{ref:"Sticky", type: Schema.Types.ObjectId}]
     }
 )
 
