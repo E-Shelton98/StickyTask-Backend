@@ -105,12 +105,12 @@ Controller - "/person"
 | "Drag & Drop" Functionality | L        | 5                  |   6          |
 |                             |          | Total Time: 83 hrs | Total Time: 102.5 |
 
-### ISSUES & RESOLUTIONS
+## ISSUES & RESOLUTIONS
 
-# Issue
+### Issue
 Our data would not render on the screen when using the form to create a task.
 
-# Resolution
+### Resolution
 The form needed the data of a person to pull the id so that it could post a task.
 
 
