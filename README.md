@@ -78,32 +78,32 @@ Controller - "/person"
 
 | Component                   | Priority | Estimated Time     | Actual Time |
 | --------------------------- | -------- | ------------------ | ----------- |
-| Git Management              | H        | 7                  |             |
-| Bug Fixes                   | H        | 9                  |             |
-| Connection                  | H        | 1                  |             |
-| Express                     | H        | 1                  |             |
-| Routes                      | H        | 2                  |             |
-| Controllers/ Models         | H        | 1                  |             |
-| Deployment                  | H        | 3                  |             |
-| Switch/Link/Routes          | H        | 2                  |             |
-| Display All                 | H        | 3                  |             |
-| CRUD Options - Backend      | H        | 2                  |             |
-| CRUD Options - Frontend     | H        | 6                  |             |
-| Create Task Form            | H        | 1.5                |             |
-| Create Person Form          | H        | 1.5                |             |
-| Connect Form                | H        | 3                  |             |
-| Styling                     | M        | 6                  |             |
-| Font Awesome/ Icons         | M        | 2                  |             |
-| Animation                   | L        | 5                  |             |
-| React Strap Tabs            | M        | 4                  |             |
-| Drop Down Form              | M        | 3                  |             |
-| Postman Testing             | H        | 2                  |             |
-| Hover                       | L        | 1.5                |             |
-| Home Page                   | H        | 1.5                |             |
-| Mobile/Tablet/Desktop       | H        | 4                  |             |
-| "Done" Task Bar             | M        | 6                  |             |
-| "Drag & Drop" Functionality | L        | 5                  |             |
-|                             |          | Total Time: 83 hrs | Total Time: |
+| Git Management              | H        | 7                  |    10         |
+| Bug Fixes                   | H        | 9                  |    11         |
+| Connection                  | H        | 1                  |    1         |
+| Express                     | H        | 1                  |   1          |
+| Routes                      | H        | 2                  |    3         |
+| Controllers/ Models         | H        | 1                  |   1          |
+| Deployment                  | H        | 3                  |   2          |
+| Switch/Link/Routes          | H        | 2                  |   3          |
+| Display All                 | H        | 3                  |   3          |
+| CRUD Options - Backend      | H        | 2                  |   2          |
+| CRUD Options - Frontend     | H        | 6                  |   8          |
+| Create Task Form            | H        | 1.5                |   3          |
+| Create Person Form          | H        | 1.5                |   4          |
+| Connect Form                | H        | 3                  |    4         |
+| Styling                     | M        | 6                  |   8          |
+| Font Awesome/ Icons         | M        | 2                  |   1.5          |
+| Animation                   | L        | 5                  |    7         |
+| React Strap Tabs            | M        | 4                  |   4          |
+| Drop Down Form              | M        | 3                  |   5          |
+| Postman Testing             | H        | 2                  |   1          |
+| Hover                       | L        | 1.5                |   2          |
+| Home Page                   | H        | 1.5                |   3          |
+| Mobile/Tablet/Desktop       | H        | 4                  |   4          |
+| "Done" Task Bar             | M        | 6                  |   5          |
+| "Drag & Drop" Functionality | L        | 5                  |   6          |
+|                             |          | Total Time: 83 hrs | Total Time: 102.5 |
 
 ### ISSUES & RESOLUTIONS
 
