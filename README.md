@@ -107,6 +107,14 @@ Controller - "/person"
 
 ### ISSUES & RESOLUTIONS
 
+# Issue
+Our data would not render on the screen when using the form to create a task.
+
+# Resolution
+The form needed the data of a person to pull the id so that it could post a task.
+
+
+
 ### CODE SNIPPETS
 
 ```
