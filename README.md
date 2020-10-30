@@ -108,3 +108,17 @@ Controller - "/person"
 ### ISSUES & RESOLUTIONS
 
 ### CODE SNIPPETS
+
+```
+{peopleArr && peopleArr.length > 0 ? (
+                <select onChange={(event) => handleChange(event)}>
+                    {peopleArr.map((person) => (
+                        <option key={person._id} name='assignTo' value={person._id}>
+                            {person.name}
+                        </option>
+                    ))}
+                </select>
+            ) : (
+                <p>Add Some Taskers!</p>
+            )}
+            ```
